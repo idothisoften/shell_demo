@@ -8,7 +8,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, './dist/'),
         filename: '[name].bundle.js',
-        chunkFilename: '[name].bundle.js',
+        chunkFilename: '[name].[chunkhash].bundle.js',
         jsonpFunction: 'booking_app_jsonp',
         libraryTarget: 'commonjs',
         publicPath: '/apps/booking/dist/'
