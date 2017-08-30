@@ -1,0 +1,15 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.bundle.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "webpack": "^3.5.5"
+  }
+}
